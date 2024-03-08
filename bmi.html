@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+   <form class="main" name="calculator">
+       <h1 id="yuo">ICON'S CALCULATOR</h1>
+        <input class="buty" type="text" value="" name="display" disabled>
+        <div class="cal1">
+            <input id="go" type="button" value="mrc" onclick="calculator.display.value += ''">
+            <input id="go" type="button" value="m-" onclick="calculator.display.value += ''">
+            <input id="go" type="button" value="m+" onclick="calculator.display.value += ''">
+            <input id="gee" type="button" value="/" onclick="calculator.display.value += ''">
+        </div>
+        <div class="cal1">
+            <input id="colo" type="button" value="7" onclick="calculator.display.value += '7'">
+            <input id="colo" type="button" value="8" onclick="calculator.display.value += '8'">
+            <input id="colo" type="button" value="9" onclick="calculator.display.value += '9'">
+            <input id="gee" type="button" value="X" onclick="calculator.display.value += '*'">
+        </div>
+        <div class="cal1">
+            <input id="colo" type="button" value="4" onclick="calculator.display.value += '4'">
+            <input id="colo" type="button" value="5" onclick="calculator.display.value += '5'">
+            <input id="colo" type="button" value="6" onclick="calculator.display.value += '6'">
+            <input id="gee" type="button" value="-" onclick="calculator.display.value += '-'">
+        </div>
+        <div class="cal1">
+            <input id="colo" type="button" value="1" onclick="calculator.display.value += '1'">
+            <input id="colo" type="button" value="2" onclick="calculator.display.value += '2'">
+            <input id="colo" type="button" value="3" onclick="calculator.display.value += '3'">
+            <input id="gee" type="button" value="+" onclick="calculator.display.value += '+'">
+        </div>
+        <div class="cal1">
+            <input id="colo" type="button" value="0" onclick="calculator.display.value += '0'">
+            <input id="colo" type="button" value="." onclick="calculator.display.value += '.'">
+            <input id="colo" type="button" value="C" onclick="calculator.display.value = ''">
+            <input id="colo" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+        </div>
+    </form>
+</body>
+</html>

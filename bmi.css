@@ -1,0 +1,55 @@
+ .main{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    border-radius: 40px;
+    border: 20px solid rgb(230, 42, 42);
+}  
+
+#yuo{
+    color: rgb(20, 215, 233);
+}
+
+.buty{
+    font-size: 40px;
+    width: 400px;
+    height: 70px;
+    background-color: antiquewhite;
+}
+
+.cal1{
+    font-size: xx-large;
+    padding: 20px;
+    height: 40px;
+    background-color: ;
+    
+    
+} 
+#colo{
+    width: 80px;
+    height: 50px;
+    font-size: larger;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#go{
+    width: 80px;
+    height: 50px;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(77, 73, 73);
+}
+
+#gee{
+    width: 80px;
+    height: 50px;
+    font-size: medium;
+    text-align: center;
+    color: black;
+    background-color: rgb(230, 18, 18);
+    border-radius: 10px;
+}
